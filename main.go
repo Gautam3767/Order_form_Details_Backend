@@ -61,6 +61,8 @@ func main() {
 		"http://localhost:3000", // Default React dev port for order form?
 		"http://localhost:3001", // Default React dev port for admin UI?
 		// Add your production frontend URLs here
+		"http://localhost:5173", // Default Vite port for admin UI?
+		"http://localhost:5174", // Default Vite port for order form?
 	}
 	corsConfig.AllowMethods = []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"}
 	corsConfig.AllowHeaders = []string{"Origin", "Content-Length", "Content-Type", "Authorization", "Accept", "X-Requested-With"} // Added common headers
